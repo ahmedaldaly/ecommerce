@@ -38,7 +38,7 @@ module.exports.deleteCategory = asyncHandler(async (req, res) => {
    
     // التحقق من وجود الصورة وحذفها
     if (category.image && category.image.public_id) {
-      await removeImage(category.image.public_id);
+      await cloudinary.uploader.destroy(category.image.public_id);
     }
 
     // إرسال استجابة نجاح
