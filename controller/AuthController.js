@@ -13,7 +13,7 @@ passport.use(
       {
         clientID: process.env.GOOGLE_ID, // معرف العميل من Google
         clientSecret: process.env.GOOGLE_SECRIT, // المفتاح السري للعميل
-        callbackURL: "https://ecommerce-app-lemon-two.vercel.app/api/vi/auth/google/callback"
+        callbackURL: "https://ecommerce-coral-eta.vercel.app/api/vi/auth/google/callback"
   
    // رابط الاسترجاع بعد تسجيل الدخول
       },
