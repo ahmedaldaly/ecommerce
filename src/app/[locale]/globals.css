@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+body {
+    font-family: 
+    "Playfair Display", serif;
+}
+.title {
+  
+    animation: title 1s ease-in-out ; /* يحدد اسم الأنيميشن ومدة الزمن */
+  }
+  
+  @keyframes title {
+    0% {
+      opacity: 0;              /* يبدأ العنصر شفافًا */
+      transform: scale(0.8);   /* يبدأ العنصر أصغر */
+    }
+   
+    100% {
+        opacity: 1;              /* العنصر يظهر بالكامل */
+        transform: scale(1); 
+    }
+  }
+  
