@@ -64,7 +64,7 @@ passport.use(
   
       req.user = user;
       console.log("User authenticated successfully:", req.user);
-      res.redirect(`https://glistening-madeleine-d419a0.netlify.app/en/profile?token=${req.user.token}`);
+      res.redirect(`https://ecommerce-front-orcin-ten.vercel.app/en/profile?token=${req.user.token}`);
     })(req, res, next);
   };
   
