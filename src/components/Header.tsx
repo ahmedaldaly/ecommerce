@@ -112,7 +112,7 @@ export default function LanguageSwitcher() {
         variants={containerVariants}
         className={`w-[95%] flex-wrap max-xl:p-5 px-10 items-center justify-between rounded-3xl shadow-md fixed top-5 flex border-1 border-gray-300 z-10 left-[2.5%] bg-white overflow-hidden`}
       >
-        <Link href='/'><img src="/image/logo.png" className="max-xl:w-24" alt="logo" /></Link>
+        <Link href='/'><img src="/png.png" className="w-22" alt="logo" /></Link>
 
         <div className="flex justify-center items-center gap-5 group max-xl:hidden">
           <Link
